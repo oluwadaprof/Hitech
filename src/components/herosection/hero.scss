@@ -1,0 +1,123 @@
+.hero {
+  height: auto;
+  .text-section {
+    h1 {
+      background: linear-gradient(
+        90deg,
+        #ff6b6b 0%,
+        #faab32 53.94%,
+        #ff6b6b 100%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 33px;
+      position: absolute;
+      width: 92px;
+      height: 33px;
+      left: 18rem;
+      top: 17.3rem;
+    }
+    .heroname {
+      position: absolute;
+      width: 568px;
+      height: 166px;
+      left: 17.5rem;
+      top: 261px;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 130px;
+      line-height: 166px;
+      color: white;
+      span {
+        background-color: white;
+        color: black;
+        width: auto;
+        border-radius: 8px;
+        padding-inline: 0.5rem;
+        letter-spacing: 3px;
+      }
+    }
+    p {
+      position: absolute;
+      width: 677px;
+      height: 120px;
+      left: 18.6rem;
+      top: 463px;
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 40px;
+      word-wrap: break-word;
+      text-align: left;
+      color: #bcbcbc;
+    }
+  }
+  .grouped-button {
+    display: flex;
+    justify-content: space-around;
+    .hire {
+      width: 3rem;
+      height: 1rem;
+      color: black;
+      box-sizing: border-box;
+      position: absolute;
+      width: 171px;
+      height: 60px;
+      left: 17.4rem;
+      top: 638px;
+      background: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: 40px;
+      margin-bottom: 6rem;
+
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+    }
+    .contact {
+      width: 3rem;
+      height: 1rem;
+      color: white;
+      background-color: black;
+      box-sizing: border-box;
+      position: absolute;
+      width: 171px;
+      height: 60px;
+      left: 35.4rem;
+      top: 638px;
+      border: 1px solid white;
+      border: 1px solid #ffffff;
+      border-radius: 40px;
+      margin-bottom: 6rem;
+
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+    }
+  }
+  .zigzag {
+    position: absolute;
+    width: 37px;
+    height: 94px;
+    transform: scale(1.8);
+    left: 10rem;
+    top: 475px;
+  }
+  .triangle {
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 1238px;
+    top: 261px;
+  }
+}
