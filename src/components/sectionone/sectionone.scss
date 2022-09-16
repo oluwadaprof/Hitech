@@ -1,0 +1,75 @@
+.sectionone {
+  color: white;
+  
+  h1 {
+    position: absolute;
+    width: 348px;
+    height: 65px;
+    left: 17.2rem;
+    top: 906px;
+
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 65px;
+  }
+  p {
+    position: absolute;
+    width: 737px;
+    height: 80px;
+    left: 17.9rem;
+    top: 980px;
+    color: #bcbcbc;
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: left;
+  }
+  .skills {
+    position: relative;
+    top: 90rem;
+    left: 12rem;
+    width: 60rem;
+    height: 20rem;
+    // background-color: red;
+    padding: .4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6rem;
+    .skill-card{
+        width: 20rem;
+        height: 19rem;
+        width: 20rem;
+        background: none;
+        img{
+            position: relative;
+            top: -5rem;
+            left: -9rem;
+            width: 6rem;
+            height: 6rem;
+            background: none;
+        }
+        .skills-title{
+            position: relative;
+            width: 19rem;
+            top: -6rem;
+            left: -2rem;
+            color: white;
+            background: none;
+            
+        }
+        .skills-content{
+            position: relative;
+            width: 30rem;
+            top: -9rem;
+            left: -2rem;
+            background: none;
+        }
+    }
+    
+    
+  }
+}

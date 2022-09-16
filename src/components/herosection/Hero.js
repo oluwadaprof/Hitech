@@ -3,6 +3,9 @@ import "./hero.scss";
 import zigzag from "../../assets/Vector 5.png";
 import triangle from "../../assets/Polygon 1.png";
 import twitter from "../../assets/twitter.png";
+import behance from "../../assets/behance.png";
+import dribble from "../../assets/web.png";
+import facebook from "../../assets/facebook.png";
 
 const Hero = () => {
   return (
@@ -25,10 +28,10 @@ const Hero = () => {
       <img className="zigzag" src={zigzag} alt="" />
       <img className="triangle" src={triangle} alt="" />
       <div className="social-icons">
-        <img className="triangle" src={twitter} alt="" />
-        <img className="triangle" src={twitter} alt="" />
-        <img className="triangle" src={twitter} alt="" />
-        <img className="triangle" src={twitter} alt="" />
+        <img className="t" src={twitter} alt="" />
+        <img className="t" src={behance} alt="" />
+        <img className="" src={dribble} alt="" />
+        <img className="" src={facebook} alt="" />
       </div>
     </div>
   );
