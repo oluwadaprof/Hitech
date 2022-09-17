@@ -1,0 +1,179 @@
+.sectionfour {
+  position: relative;
+  top: 210rem;
+  color: white;
+  margin-top: 2rem;
+  height: 60rem;
+  width: 85rem;
+  //   background: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+
+  h1 {
+    text-align: left;
+    background: none;
+    font-family: "Space Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 65px;
+    color: #ffffff;
+    margin-left: 3.3rem;
+  }
+  p {
+    text-align: left;
+    background: none;
+    font-family: "Axiforma";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #bcbcbc;
+    margin-left: 3.3rem;
+    margin-bottom: 6rem;
+  }
+  .publication {
+    display: flex;
+    background: none;
+
+    // margin: auto;
+    .publication-card__one {
+      overflow: hidden;
+      margin: auto;
+      height: 58rem;
+      width: 35rem;
+      background: blue;
+      background: rgba(9, 9, 9, 0.87);
+      border: 1px solid rgba(63, 63, 63, 0.78);
+      border-radius: 10px;
+     
+      &:hover {
+        transform: scale(1.01);
+        transition: 1s ease;
+      }
+      img {
+        margin-left: -1rem;
+        margin-top: -1rem;
+      }
+      h2 {
+        font-family: "TT Norms";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: left;
+        color: #ffffff;
+        margin-left: 3.2rem;
+        background: none;
+      }
+      p {
+        font-family: "Axiforma";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #bcbcbc;
+        margin-bottom: 0.3rem;
+        margin-top: -0.5rem;
+      }
+      .icon-circle__one {
+        position: absolute;
+        top: 72rem;
+        left: 35rem;
+        color: white;
+        width: 60px;
+        height: 60px;
+        background: #ff6b6b;
+        box-shadow: 0px 4px 12px #690303;
+        border-radius: 50%;
+        
+        &:hover {
+          transform: scale(1.01);
+          transition: 1s ease;
+        }
+        .icon {
+          background: none;
+          transform: scale(2);
+          margin-top: 2rem;
+        }
+      }
+    }
+    .publication-card__two {
+      overflow: hidden;
+      margin: auto;
+      height: 58rem;
+      width: 35rem;
+      background: blue;
+      background: rgba(9, 9, 9, 0.87);
+      border: 1px solid rgba(63, 63, 63, 0.78);
+      border-radius: 10px;
+      &:hover {
+        transform: scale(1.01);
+        transition: 1s ease;
+      }
+      img {
+        margin-left: -1rem;
+        margin-top: -1rem;
+      }
+      h2 {
+        font-family: "TT Norms";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: left;
+        color: #ffffff;
+        margin-left: 3.2rem;
+        background: none;
+      }
+      p {
+        font-family: "Axiforma";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        color: #bcbcbc;
+        margin-bottom: 0.3rem;
+        margin-top: -0.5rem;
+      }
+      .icon-circle__two {
+        position: absolute;
+        top: 72rem;
+        left: 76rem;
+        color: white;
+        width: 60px;
+        height: 60px;
+        background: #ff6b6b;
+        box-shadow: 0px 4px 12px #690303;
+        border-radius: 50%;
+        &:hover {
+          transform: scale(1.01);
+          transition: 1s ease-in-out;
+        }
+        .icon {
+          background: none;
+          transform: scale(2);
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+  .see-all {
+    margin-top: 8rem;
+    width: 171px;
+    height: 60px;
+    left: 2rem;
+    top: 2825px;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+    &:hover {
+      background-color: white;
+      border: 1px solid gray;
+      color: black;
+      transition: 1s ease-in-out;
+    }
+  }
+}

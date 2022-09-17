@@ -7,6 +7,7 @@
   left: -1rem;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25rem;
 //   background-color: red;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -61,6 +62,11 @@
             text-align: center;
             display: flex;
             align-items: center;
+            &:hover{
+              background-color: rgb(223, 52, 80);
+              transition: 1s ease-in-out;
+              border: 1px solid white;
+            }
             img{
               background: none;
              
