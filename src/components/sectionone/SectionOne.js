@@ -1,11 +1,11 @@
 import React from "react";
 import "./sectionone.scss";
 import research from "../../assets/research icon.png";
-import wp from "../../assets/wp icon.png";
+// import wp from "../../assets/wp icon.png";
 
 const SectionOne = () => {
   return (
-    <div className="sectionone">
+    <section className="sectionone">
       <h1>What i do in Nutshell</h1>
       <p>
         “Perfection is achieved, not when there is nothing more to add, but when
@@ -47,7 +47,7 @@ const SectionOne = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -1,0 +1,89 @@
+.sectiontwo {
+  position: relative;
+  top: 100rem;
+  left: 13rem;
+  //   background-color: blue;
+  height: 10rem;
+  width: 80rem;
+  margin-bottom: 2rem;
+  h1 {
+    background: none;
+    color: white;
+    text-align: left;
+    font-size: 35px;
+  }
+  p {
+    color: white;
+    background: none;
+    text-align: left;
+    font-size: 18px;
+    b {
+      background: none;
+    }
+  }
+  .works-card {
+    margin-top: 7rem;
+    border: 0.4px solid #fff1fb;
+    border-radius: 30px;
+    width: 70rem;
+    height: 30rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    .indicator {
+      position: relative;
+      color: white;
+      border-radius: 20px;
+      width: 6rem;
+      height: 2.3rem;
+      background-color: #ced3ff;
+      text-align: center;
+      P {
+        font-family: "Axiforma";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+        color: #3347ff;
+        padding-top: 0.3rem;
+        padding-left: 0.4rem;
+      }
+    }
+    h1 {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 32px;
+      margin-top: 2rem;
+      margin-bottom: 2.7rem;
+    }
+    p {
+      // margin-top: 2rem;
+      font-weight: light;
+    }
+    .case {
+      position: relative;
+      top: 1rem;
+      left: -24rem;
+      background: #f04770;
+      color: white;
+      border-radius: 40px;
+      width: 163px;
+      height: 55px;
+      font-size: 14px;
+      
+    }
+  }
+
+  .see-all {
+    margin-top: 8rem;
+    width: 171px;
+    height: 60px;
+    left: 2rem;
+    top: 2825px;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px
+  }
+}

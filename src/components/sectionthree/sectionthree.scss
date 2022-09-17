@@ -1,0 +1,78 @@
+.sectionthree {
+  width: 80rem;
+  height: 20rem;
+  color: white;
+  position: relative;
+  top: 195rem;
+  left: -1rem;
+  margin-left: auto;
+  margin-right: auto;
+//   background-color: red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  .first {
+    background: none;
+    .text-one {
+      color: white;
+      background-color: white;
+      text-align: left;
+      background: none;
+      width: auto;
+      height: auto;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 65px;
+    }
+    .text-two {
+      background: none;
+      font-family: "Axiforma";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 40px;
+      text-align: left;
+      color: #bcbcbc;
+    }
+  }
+  .second {
+    background: none;
+    width: auto;
+    height: auto;
+    div{
+        display: flex;
+        gap: .1rem;
+        .zeplin {
+            color: white;
+            font-size: 14px;
+            font-family: "Axiforma";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #ffffff;
+            background: rgba(9, 9, 9, 0.87);
+            border: 1px solid rgba(63, 63, 63, 0.78);
+            border-radius: 30px;
+            width: auto;
+            height: 64px;
+            padding: .7rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            img{
+              background: none;
+             
+            }
+            p{
+              background: none;
+              margin-left: -.4rem;
+            }
+          }
+    }
+
+ 
+    
+  }
+}
