@@ -8,6 +8,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25rem;
+  margin-top: 15rem;
 //   background-color: red;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -18,7 +19,7 @@
       background-color: white;
       text-align: left;
       background: none;
-      width: auto;
+      width: 40rem;
       height: auto;
       font-family: "Space Grotesk";
       font-style: normal;
@@ -59,13 +60,14 @@
             width: auto;
             height: 64px;
             padding: .7rem;
+            width: 17rem;
             text-align: center;
             display: flex;
             align-items: center;
             &:hover{
               background-color: rgb(223, 52, 80);
               transition: 1s ease-in-out;
-              border: 1px solid white;
+              // border: 1px solid white;
             }
             img{
               background: none;
@@ -74,6 +76,7 @@
             p{
               background: none;
               margin-left: -.4rem;
+              
             }
           }
     }

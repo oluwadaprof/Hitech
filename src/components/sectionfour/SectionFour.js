@@ -6,7 +6,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 
 const SectionFour = () => {
   return (
-    <section className="sectionfour">
+    <section  id="resume" className="sectionfour">
       <h1>My Publications</h1>
       <p>
         Through writing, I come to understand my internal psychologies more

@@ -6,7 +6,7 @@ import design from "../../assets/design st icon.png";
 
 const SectionOne = () => {
   return (
-    <section className="sectionone">
+    <section id="about" className="sectionone">
       <h1>What i do in Nutshell</h1>
       <p>
         “Perfection is achieved, not when there is nothing more to add, but when

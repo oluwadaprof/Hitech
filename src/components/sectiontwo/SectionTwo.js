@@ -7,7 +7,7 @@ import fourthimage from '../../assets/component 2.png'
 
 const SectionTwo = () => {
   return (
-    <section className="sectiontwo">
+    <section  id="mywork" className="sectiontwo">
       <h1>My Works</h1>
       <p>
         "There is no such thing as a boring project. There are only boring

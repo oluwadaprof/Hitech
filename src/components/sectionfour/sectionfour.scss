@@ -42,22 +42,22 @@
       overflow: hidden;
       margin: auto;
       height: 58rem;
-      width: 35rem;
+      width: 37rem;
       background: blue;
       background: rgba(9, 9, 9, 0.87);
       border: 1px solid rgba(63, 63, 63, 0.78);
       border-radius: 10px;
-     
-      &:hover {
-        transform: scale(1.01);
-        transition: 1s ease;
-      }
+
+      // &:hover {
+      //   transform: scale(1.01);
+      //   transition: 1s ease;
+      // }
       img {
         margin-left: -1rem;
         margin-top: -1rem;
       }
       h2 {
-        font-family: "TT Norms";
+        font-family: "TT Norms Pro";
         font-style: normal;
         font-weight: 700;
         font-size: 25px;
@@ -71,7 +71,7 @@
         font-family: "Axiforma";
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 11px;
         line-height: 30px;
         color: #bcbcbc;
         margin-bottom: 0.3rem;
@@ -87,11 +87,11 @@
         background: #ff6b6b;
         box-shadow: 0px 4px 12px #690303;
         border-radius: 50%;
-        
-        &:hover {
-          transform: scale(1.01);
-          transition: 1s ease;
-        }
+
+        // &:hover {
+        //   transform: scale(1.01);
+        //   transition: 1s ease;
+        // }
         .icon {
           background: none;
           transform: scale(2);
@@ -103,21 +103,21 @@
       overflow: hidden;
       margin: auto;
       height: 58rem;
-      width: 35rem;
+      width: 37rem;
       background: blue;
       background: rgba(9, 9, 9, 0.87);
       border: 1px solid rgba(63, 63, 63, 0.78);
       border-radius: 10px;
-      &:hover {
-        transform: scale(1.01);
-        transition: 1s ease;
-      }
+      // &:hover {
+      //   transform: scale(1.01);
+      //   transition: 1s ease;
+      // }
       img {
         margin-left: -1rem;
         margin-top: -1rem;
       }
       h2 {
-        font-family: "TT Norms";
+        font-family: "TT Norms Pro";
         font-style: normal;
         font-weight: 700;
         font-size: 25px;
@@ -131,11 +131,12 @@
         font-family: "Axiforma";
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
+        font-size: 11px;
         line-height: 30px;
         color: #bcbcbc;
         margin-bottom: 0.3rem;
         margin-top: -0.5rem;
+        width: 60rem;
       }
       .icon-circle__two {
         position: absolute;
@@ -147,10 +148,10 @@
         background: #ff6b6b;
         box-shadow: 0px 4px 12px #690303;
         border-radius: 50%;
-        &:hover {
-          transform: scale(1.01);
-          transition: 1s ease-in-out;
-        }
+        // &:hover {
+        //   transform: scale(1.01);
+        //   transition: 1s ease-in-out;
+        // }
         .icon {
           background: none;
           transform: scale(2);
@@ -169,6 +170,9 @@
     border-radius: 40px;
     color: white;
     font-size: 15px;
+    font-family: "Axiforma", sans-serif;
+    font-style: normal;
+    font-weight: 500;
     &:hover {
       background-color: white;
       border: 1px solid gray;

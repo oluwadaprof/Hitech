@@ -6,7 +6,7 @@
   width: 121.25rem;
   z-index: 1;
   background-color: white;
-  transition: 1s ease-in-out;
+  transition: 1ms ease-in-out;
   .menu {
     background: none;
     width: 50rem;
@@ -23,6 +23,9 @@
       position: relative;
       top: 1.7rem;
       left: 81.5rem;
+        &:hover{
+            cursor: pointer;
+        }
     }
   }
   .nav__items {
@@ -47,10 +50,110 @@
       margin: auto;
       list-style: none;
       margin-top: 2rem;
-      &:hover {
-        color: black;
-        cursor: pointer;
+      margin-left: 55rem;
+      text-align: left;
+      
+      a{
+        list-style: none;
+        text-decoration: none;
+        background: none;
+        color: #ababab;
+        &:hover {
+          color: black;
+          cursor: pointer;
+        }
+      }
+      
+    }
+  }
+  .zigzag {
+    position: absolute;
+    width: 37px;
+    height: 94px;
+    transform: scale(1.8);
+    left: 20rem;
+    top: 475px;
+    background: none;
+  }
+  .triangle {
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 1238px;
+    top: 261px;
+    background: none;
+  }
+}
+
+$breakpoint-tablet :992px;
+@media screen and (max-width: $breakpoint-tablet) {
+  .floatnav{
+    height: 56.5rem;
+    width: 99.95rem;
+    
+    .menu {
+      width: 50rem;
+      height: 9rem;
+      justify-content: space-between;
+      img:nth-child(1) {
+        background: none;
+        position: relative;
+        right: 2rem;
+        top: 2rem;
+      }
+      img:nth-child(2) {
+        background: none;
+        position: relative;
+        top: 1.7rem;
+        left: 60.5rem;
+      }
+    }
+    .nav__items{
+      li{
+        margin-left: 47rem;
+        &:hover{
+          color: black;
+          cursor: pointer;
+        }
       }
     }
   }
+  .zigzag {
+    position: absolute;
+    width: 37px;
+    height: 94px;
+    transform: scale(1.8);
+    left: 20rem;
+    top: 475px;
+    background: none;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  .triangle {
+    position: relative;
+    width: 63px;
+    height: 63px;
+    left: 10rem;
+    top: 1rem;
+    background: none;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 15px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+
+  
 }

@@ -12,13 +12,13 @@ const Footer = () => {
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
     }
   return (
-    <footer>
+    <footer  id="contact">
       <img onClick={handlescroll} src={logo} alt="" />
       <div className="social-icons">
         <img className="t" src={twitter} alt="" />
         <img className="t" src={behance} alt="" />
-        <img className="" src={dribble} alt="" />
-        <img className="" src={facebook} alt="" />
+        <img className="t" src={dribble} alt="" />
+        <img className="t" src={facebook} alt="" />
       </div>
     </footer>
   );

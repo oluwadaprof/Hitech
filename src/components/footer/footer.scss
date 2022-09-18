@@ -32,3 +32,27 @@ footer{
         }
       }
 }
+
+$breakpoint-tablet: 992px;
+@media screen and (max-width: $breakpoint-tablet) {
+  footer {
+    // display: flex;
+    img{
+        margin-left: 13rem;
+    }
+
+    .social-icons{
+        position: relative;
+        left: -12rem;
+        top: -.5rem;
+        display: flex;
+        width: 10rem;
+        .t{
+            margin-left: 4rem;
+        }
+        
+        
+    }
+    
+  }
+}

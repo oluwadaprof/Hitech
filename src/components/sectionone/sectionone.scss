@@ -1,13 +1,12 @@
 .sectionone {
   color: white;
-  
+
   h1 {
     position: absolute;
     width: 348px;
     height: 65px;
     left: 17.2rem;
     top: 906px;
-
     font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 700;
@@ -35,41 +34,62 @@
     width: 60rem;
     height: 20rem;
     // background-color: red;
-    padding: .4rem;
+    padding: 0.4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 6rem;
-    .skill-card{
-        width: 20rem;
-        height: 19rem;
-        width: 20rem;
+    gap: 9rem;
+    .skill-card {
+      width: 20rem;
+      height: 19rem;
+      width: 20rem;
+      background: none;
+      img {
+        position: relative;
+        top: -5rem;
+        left: -9rem;
+        width: 6rem;
+        height: 6rem;
         background: none;
-        img{
-            position: relative;
-            top: -5rem;
-            left: -9rem;
-            width: 6rem;
-            height: 6rem;
-            background: none;
-        }
-        .skills-title{
-            position: relative;
-            width: 19rem;
-            top: -6rem;
-            left: -2rem;
-            color: white;
-            background: none;
-            
-        }
-        .skills-content{
-            position: relative;
-            width: 30rem;
-            top: -9rem;
-            left: -2rem;
-            background: none;
-        }
+      }
+      .skills-title {
+        position: relative;
+        width: 21rem;
+        top: -6rem;
+        left: -2rem;
+        color: white;
+        background: none;
+      }
+      .skills-content {
+        position: relative;
+        width: 34rem;
+        top: -9rem;
+        left: -4rem;
+        background: none;
+        transform: scale(0.9);
+        // margin-right: 1rem;
+      }
     }
-    
-    
+  }
+}
+
+$breakpoint-tablet: 992px;
+@media screen and (max-width: $breakpoint-tablet) {
+  .sectionone {
+    margin-left: -10rem;
+    h1 {
+      margin-left: -8rem;
+    }
+    p {
+      margin-left: -8rem;
+    }
+    .skills {
+      position: relative;
+      top: 90rem;
+      left: 25rem;
+      grid-template-columns: 1fr 1fr;
+      img {
+        margin-left: -16rem;
+      }
+    }
   }
 }

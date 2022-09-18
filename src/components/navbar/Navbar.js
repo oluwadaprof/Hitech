@@ -5,7 +5,9 @@ import circleMenu from "../../assets/menu.png";
 import FloatNav from "../floatnav/FloatNav";
 
 const Navbar = () => {
-  const [closenav, setclosenav] = useState(true);
+  const [closenav, setclosenav] = useState(false);
+  
+
   const handleclose = () => {
     setclosenav(false);
   };

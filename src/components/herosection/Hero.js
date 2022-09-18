@@ -9,7 +9,7 @@ import facebook from "../../assets/facebook.png";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div id='home' className="hero">
       <div className="text-section">
         <h1>Hello I'm</h1>
         <p className="heroname">
