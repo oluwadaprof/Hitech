@@ -1,5 +1,9 @@
 import React from "react";
 import "./sectiontwo.scss";
+import firstimage from '../../assets/Welcome Screen.png'
+import secondimage from '../../assets/Splash Screen.png'
+import thirdimage from '../../assets/component 1.png'
+import fourthimage from '../../assets/component 2.png'
 
 const SectionTwo = () => {
   return (
@@ -24,8 +28,8 @@ const SectionTwo = () => {
           their desired conventional exam{" "}
         </p>
         <button className="case">Case Study</button>
-        <img className="first__image" src="" alt="" />
-        <img className="second__image" src="" alt="" />
+        <img className="first__image" src={firstimage} alt="" />
+        <img className="second__image" src={secondimage} alt="" />
       </div>
 
       <div className="works-card__two">
@@ -40,8 +44,8 @@ const SectionTwo = () => {
            locations, by  on a monthly basis.
         </p>
         <button className="case__two">Case Study</button>
-        <img className="third__image" src="" alt="" />
-        <img className="fourth__image" src="" alt="" />
+        <img className="third__image" src={thirdimage} alt="" />
+        <img className="fourth__image" src={fourthimage} alt="" />
       </div>
 
       <button className="see-all">See all</button>
@@ -50,3 +54,6 @@ const SectionTwo = () => {
 };
 
 export default SectionTwo;
+
+
+//how to call api using httpclient in react?

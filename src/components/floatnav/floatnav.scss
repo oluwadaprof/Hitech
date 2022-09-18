@@ -1,0 +1,56 @@
+.floatnav {
+  position: absolute;
+  top: -2rem;
+  left: -10rem;
+  height: 56.5rem;
+  width: 121.25rem;
+  z-index: 1;
+  background-color: white;
+  transition: 1s ease-in-out;
+  .menu {
+    background: none;
+    width: 50rem;
+    height: 9rem;
+    justify-content: space-between;
+    img:nth-child(1) {
+      background: none;
+      position: relative;
+      right: 2rem;
+      top: 2rem;
+    }
+    img:nth-child(2) {
+      background: none;
+      position: relative;
+      top: 1.7rem;
+      left: 81.5rem;
+    }
+  }
+  .nav__items {
+    background: none;
+    ul,
+    li {
+      background: none;
+    }
+    ul {
+      margin-top: 4rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    li {
+      color: #ababab;
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 65px;
+      width: 40rem;
+      margin: auto;
+      list-style: none;
+      margin-top: 2rem;
+      &:hover {
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+}
